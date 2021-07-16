@@ -62,7 +62,7 @@ nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url('image/banner.jpg');
+    background-image: url('../image/banner.jpg');
     background-position: center;
     background-size: cover;
     height: 670px;
@@ -417,6 +417,7 @@ footer .widget_texto {
 .tel_email {
     color: white;
     margin-bottom: 30px;
+    padding-top: 4px;
     
 }
 
@@ -550,6 +551,90 @@ footer .widget_texto {
     .imagem_coluna {
         width: 110px;
         height: 110px; 
+    }
+
+    .footer_menu {
+        flex-flow: column;
+    }
+
+    .footer_area {
+        flex-flow: column;
+        padding: 20px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-flow: row;
+    }
+
+    nav ul {
+        flex-flow: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .menumobile {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around
+    }
+
+}
+
+@media (max-width:400px) {
+
+    .banner_texto {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .banner_texto h1 {
+        font-size: 38px;
+        padding-right: 50px;
+    }
+    
+    .banner_texto h2 {
+        font-size: 16px;
+        padding-right: 150px;
+    }
+
+    .banner_opcao {
+        height: auto;
+        flex-flow: column;
+        margin-top: 80px;
+    }
+
+    #banner {
+        height: 330px;
+        margin-bottom: 620px;
+    }
+
+    .container {
+        flex-flow: column;
+    }
+
+    #geral section,
+    #geral aside  {
+        padding: 20px;
+    }
+
+    .imagem_coluna {
+        width: 150px;
+        height: 140px; 
     }
 
     .footer_menu {

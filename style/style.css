@@ -603,7 +603,7 @@ footer .widget_texto {
     }
 
     .banner_texto h1 {
-        font-size: 38px;
+        font-size: 35px;
         padding-right: 50px;
     }
     
@@ -615,12 +615,12 @@ footer .widget_texto {
     .banner_opcao {
         height: auto;
         flex-flow: column;
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
     #banner {
-        height: 330px;
-        margin-bottom: 620px;
+        height: 290px;
+        margin-bottom: 650px;
     }
 
     .container {
@@ -633,8 +633,8 @@ footer .widget_texto {
     }
 
     .imagem_coluna {
-        width: 150px;
-        height: 140px; 
+        width:  300px;
+        height: 290px; 
     }
 
     .footer_menu {
